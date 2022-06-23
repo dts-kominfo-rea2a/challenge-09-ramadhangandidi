@@ -13,12 +13,12 @@ const App = () => {
       <section>
         <Header />
       </section>
-      <Contact dataContact={contacts[0]} />
-      <Contact dataContact={contacts[1]} />
-      <Contact dataContact={contacts[2]} />
-      <Contact dataContact={contacts[3]} />
-      <Contact dataContact={contacts[4]} />
-      <Contact dataContact={contacts[5]} />
+      <Contact data={contacts[0]} />
+      <Contact data={contacts[1]} />
+      <Contact data={contacts[2]} />
+      <Contact data={contacts[3]} />
+      <Contact data={contacts[4]} />
+      <Contact data={contacts[5]} />
     </div>
   );
 };

@@ -9,11 +9,11 @@ const Contact = (props) => {
     <>
       {/* {console.log(props.dataContact)} */}
       <section className="dataContactSection">
-        <img src={props.dataContact.photo} alt={props.dataContact.name}></img>
+        <img src={props.data.photo} alt={props.data.name}></img>
         <div>
-          <p className="name">{props.dataContact.name}</p>
-          <p>{props.dataContact.phone}</p>
-          <p>{props.dataContact.email}</p>
+          <p className="name">{props.data.name}</p>
+          <p>{props.data.phone}</p>
+          <p>{props.data.email}</p>
         </div>
       </section>
     </>

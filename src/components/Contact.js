@@ -4,15 +4,16 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = (props) => {
-  const { name, phone, email, photo } = props;
+  // const { name, phone, email, photo } = props;
   return (
     <>
+      {/* {console.log(props.dataContact)} */}
       <section className="dataContactSection">
-        <img src={photo} alt={name}></img>
+        <img src={props.dataContact.photo} alt={props.dataContact.name}></img>
         <div>
-          <p className="name">{name}</p>
-          <p>{phone}</p>
-          <p>{email}</p>
+          <p className="name">{props.dataContact.name}</p>
+          <p>{props.dataContact.phone}</p>
+          <p>{props.dataContact.email}</p>
         </div>
       </section>
     </>

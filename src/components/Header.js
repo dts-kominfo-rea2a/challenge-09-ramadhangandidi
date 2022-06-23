@@ -5,8 +5,8 @@ import "./Header.css";
 const Header = (props) => {
   return (
     <>
-      <h1>{props.headerText}</h1>
-      <p>{props.headerInnerText}</p>
+      <h1>Call a Friend</h1>
+      <p>your friendly contact app</p>
       <hr></hr>
     </>
   );

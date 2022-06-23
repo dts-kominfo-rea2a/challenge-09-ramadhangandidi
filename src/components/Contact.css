@@ -1,7 +1,7 @@
 .dataContactSection{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: center;
     background-color: #f8dcb4;
     margin: 1rem 25rem 0;

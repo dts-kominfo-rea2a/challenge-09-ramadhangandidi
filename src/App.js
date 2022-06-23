@@ -11,10 +11,7 @@ const App = () => {
   return (
     <div className="App">
       <section>
-        <Header
-          headerText="Call a Friend"
-          headerInnerText="your friendly contact app"
-        />
+        <Header />
       </section>
       <Contact dataContact={contacts[0]} />
       <Contact dataContact={contacts[1]} />
